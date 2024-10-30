@@ -2,7 +2,7 @@
 body {
     display: flex;
     justify-content: center;  
-    background-color: #680860e0;
+    background-color: #89878f;
 }
 
 .container {
@@ -30,6 +30,7 @@ button {
     width: 200px;
     font-family: 'DynaPuff';
     background-color: transparent;
+   
 }
 
 button:hover {
@@ -41,8 +42,15 @@ button:hover {
 }
 .title {
     font-family: 'Satisfy';
-    color:  #dbd8e3;
+    color:  white;
     text-align: center;
+}
+
+.title:hover{
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+    color: #0e0e0fc0;
+    font-weight: bolder;
 }
 
 .btn-div{
@@ -50,7 +58,6 @@ button:hover {
     flex-direction: column;
     width: 300px;
     gap: 30px;
-    /* border: 1px solid wheat; */
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
